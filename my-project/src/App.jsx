@@ -27,8 +27,8 @@ function App() {
         </div>
       </header>
 
-      <section>
-        <div>
+      <section className="text-gray-700" id="home">
+        <div className="flex container mex-auto py-20">
           <div>
             <h1>
               Hi! <br />

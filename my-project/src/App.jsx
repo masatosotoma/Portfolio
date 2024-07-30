@@ -28,18 +28,18 @@ function App() {
       </header>
 
       <section className="text-gray-700" id="home">
-        <div className="flex container mex-auto py-20">
-          <div>
-            <h1>
+        <div className="flex container mex-auto py-20 px-5 flex-col md:flex-row items-center justify-center">
+          <div className="md:w-2/1 flex-grow mb-16 lg:pr-24" >
+            <h1 className="text-3xl sm:text-6xl text-gray-900 font-medium mb-4">
               Hi! <br />
               I'm Masato
               <br />
               Web Developer
             </h1>
-            <p>I'm Masato. React web Developer</p>
+            <p className="mb-8 leading-relaxed">I'm Masato. React web Developer</p>
             <button>Contact Me</button>
           </div>
-          <div />
+          <div className="md:w-2/1 lg:max-w-lg w-5/6" />
           <img src="./images/profile-pic.jpg" alt=""></img>
         </div>
       </section>

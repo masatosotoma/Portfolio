@@ -47,6 +47,13 @@ function App() {
           <img src="./images/profile-pic.jpg" alt=""></img>
         </div>
       </section>
+
+      <section id="about" className="text-gray-700 border-t border-gray-200">
+        <div>
+          <h1>About Me</h1>
+          <p className="">I am a junior web developer</p>
+        </div>
+      </section>
     </>
   );
 }

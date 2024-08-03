@@ -40,7 +40,7 @@ function App() {
               I'm Masato. React web Developer
             </p>
             <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300">
-              Contacte
+              Contact
             </button>
           </div>
           <div className="md:w-2/1 lg:max-w-lg w-5/6" />
@@ -49,9 +49,19 @@ function App() {
       </section>
 
       <section id="about" className="text-gray-700 border-t border-gray-200">
-        <div>
-          <h1>About Me</h1>
-          <p className="">I am a junior web developer</p>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="sm:text-3xl text-2xl font-medium mb-2 text-gray-900">
+              About Me
+            </h1>
+            <p className="pb-10">Masato Sotoma</p>
+            <p>Looking for an opportunity to be a web Developer</p>
+          </div>
+        </div>
+        <div className="flex-flex-wrap">
+          <div className="md:w-1/3"></div>
+          <div></div>
+          <div></div>
         </div>
       </section>
     </>

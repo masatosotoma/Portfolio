@@ -60,7 +60,7 @@ function App() {
         </div>
         <div className="flex -m-4 flex-wrap">
           <div className="md:w-1/3 p-4">
-            <div className="bg-gray-100 h-full p-8 rounded-lg ">
+            <div className="bg-gray-100 h-full p-8 rounded-lg">
               <div className="flex items-center mb-3">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
                   <svg
@@ -75,6 +75,104 @@ function App() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
                 </div>
+                <h2 className="text-gray-900 text-lg font-medium">
+                  Web Developer
+                </h2>
+              </div>
+              <div>
+                <p>I am studying codes</p>
+                <a href="#" className="flex mt-3 text-green-500 items-center">
+                  See more
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="md:w-1/3 p-4">
+            <div className="bg-gray-100 h-full p-8 rounded-lg">
+              <div className="flex items-center mb-3">
+                <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 className="text-gray-900 text-lg font-medium">
+                  Web Developer
+                </h2>
+              </div>
+              <div>
+                <p>I am studying codes</p>
+                <a href="#" className="flex mt-3 text-green-500 items-center">
+                  See more
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="md:w-1/3 p-4">
+            <div className="bg-gray-100 h-full p-8 rounded-lg">
+              <div className="flex items-center mb-3">
+                <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 className="text-gray-900 text-lg font-medium">
+                  Web Developer
+                </h2>
+              </div>
+              <div>
+                <p>I am studying codes</p>
+                <a href="#" className="flex mt-3 text-green-500 items-center">
+                  See more
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

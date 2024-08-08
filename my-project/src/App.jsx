@@ -178,6 +178,26 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/*More sections*/}
+      <section id="about" className="text-gray-700 border-t border-gray-200">
+        <div className="container px-5 py-24 mx-auto flex flex-wrap" >
+          <div>
+            <img src="./images/pc.jpg" alt="" className="rounded"></img>
+          </div>
+          <div className="lg:pl-12 lg:py-6">
+            <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 mb-10">My skills</h1>
+            <div>
+              <h2>HTML</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
     </>
   );
 }

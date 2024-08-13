@@ -6,9 +6,9 @@ function App() {
   return (
     <>
       <header className="text-gray-700 border-b border-gray-200">
-        <div className="container flex mx-auto p-5 flex-col md:flex-row items-center">
+        <div className="container mx-auto flex p-5 items-center md:flex-row flex-col">
           <a href="#" className="font-medium text-gray-900 mb-4 md:mb-0">
-            <span className="text-xl ml-3">ShinCode</span>
+            <span className="ml-3 text-xl">Masa Coding</span>
           </a>
           <nav className="md:ml-auto text-base">
             <a href="#home" className="mr-5 hover:text-blue-400 duration-300">
@@ -44,7 +44,7 @@ function App() {
             </button>
           </div>
           <div className="md:w-2/1 lg:max-w-lg w-5/6" />
-          <img src="./images/profile-pic.jpg" alt=""></img>
+          <img src="./images/profile-pic.jpg" alt="" width={"800px"} height={"800px"} className={"flex-auto"}></img>
         </div>
       </section>
 
@@ -180,7 +180,7 @@ function App() {
       </section>
 
       {/*More sections*/}
-      <section id="about" className="text-gray-700 border-t border-gray-200">
+      <section id="skills" className="text-gray-700 border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div>
             <img src="./images/pc.jpg" alt="" className="rounded"></img>

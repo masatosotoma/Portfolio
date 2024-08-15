@@ -44,7 +44,13 @@ function App() {
             </button>
           </div>
           <div className="md:w-2/1 lg:max-w-lg w-5/6" />
-          <img src="./images/profile-pic.jpg" alt="" width={"800px"} height={"800px"} className={"flex-auto"}></img>
+          <img
+            src="./images/profile-pic.jpg"
+            alt=""
+            width={"800px"}
+            height={"800px"}
+            className={"flex-auto border-0 rounded"}
+          ></img>
         </div>
       </section>
 

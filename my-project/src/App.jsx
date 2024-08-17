@@ -37,7 +37,12 @@ function App() {
               Web Developer
             </h1>
             <p className="mb-8 leading-relaxed">
-              I'm Masato. React web Developer
+              Hi, I'm Masato! I'm currently diving into the world of web
+              development, with a focus on JavaScript and React. I'm also
+              getting my hands dirty with a bit of CSS to enhance my styling
+              skills. I'm passionate about building interactive and responsive
+              web applications and am excited to keep learning and growing in
+              this field.
             </p>
             <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300">
               Contact
@@ -61,7 +66,14 @@ function App() {
               About Me
             </h1>
             <p className="pb-10">Masato Sotoma</p>
-            <p>Looking for an opportunity to be a web Developer</p>
+            <p>
+              Hi, I'm Masato! I'm currently diving into the world of web
+              development, with a focus on JavaScript and React. I'm also
+              getting my hands dirty with a bit of CSS to enhance my styling
+              skills. I'm passionate about building interactive and responsive
+              web applications and am excited to keep learning and growing in
+              this field. Looking for an opportunity to be a web Developer
+            </p>
           </div>
         </div>
         <div className="flex -m-4 flex-wrap">

@@ -20,8 +20,8 @@ function App() {
             <a href="#skills" className="mr-5 hover:text-blue-400 duration-300">
               Skills
             </a>
-            <a href="#Blog" className="mr-5 hover:text-blue-400 duration-300">
-              Blog
+            <a href="#projects" className="mr-5 hover:text-blue-400 duration-300">
+              Projects
             </a>
           </nav>
         </div>
@@ -243,6 +243,145 @@ function App() {
                 >
                   70%
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*Project section*/}
+      <section id="projects" className="text-gray-700 border-t border-gray-200">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="sm:text-3xl text-2xl font-medium mb-2 text-gray-900">
+              My projects
+            </h1>
+            <p className="pb-10">List</p>
+            <p>
+              Hi, I'm Masato! I'm currently diving into the world of web
+              development, with a focus on JavaScript and React. I'm also
+              getting my hands dirty with a bit of CSS to enhance my styling
+              skills. I'm passionate about building interactive and responsive
+              web applications and am excited to keep learning and growing in
+              this field. Looking for an opportunity to be a web Developer
+            </p>
+          </div>
+        </div>
+        <div className="flex -m-4 flex-wrap">
+          <div className="md:w-1/3 p-4">
+            <div className="bg-gray-100 h-full p-8 rounded-lg">
+              <div className="flex items-center mb-3">
+                <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 className="text-gray-900 text-lg font-medium">
+                  Chatting-App
+                </h2>
+              </div>
+              <div>
+                <p>Line-Contact App project</p>
+                <a href="#" className="flex mt-3 text-green-500 items-center">
+                  See more
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="md:w-1/3 p-4">
+            <div className="bg-gray-100 h-full p-8 rounded-lg">
+              <div className="flex items-center mb-3">
+                <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 className="text-gray-900 text-lg font-medium">
+                  To Do List
+                </h2>
+              </div>
+              <div>
+                <p>To Do List App project</p>
+                <a href="#" className="flex mt-3 text-green-500 items-center">
+                  See more
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="md:w-1/3 p-4">
+            <div className="bg-gray-100 h-full p-8 rounded-lg">
+              <div className="flex items-center mb-3">
+                <div className="bg-green-500 text-white rounded-full w-8 h-8 flex justify-center items-center mr-3">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 className="text-gray-900 text-lg font-medium">
+                  Web Developer
+                </h2>
+              </div>
+              <div>
+                <p>I am studying codes</p>
+                <a href="#" className="flex mt-3 text-green-500 items-center">
+                  See more
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

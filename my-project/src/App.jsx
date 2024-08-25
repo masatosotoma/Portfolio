@@ -27,30 +27,31 @@ function App() {
               Projects
             </a>
           </nav>
-          <nav className="flex">
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/masatosotoma"
-                  target="_blank"
-                  rel="noopener noreferer"
-                >
-                  <img
-                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIgogICAgICAgICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICAgIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8ZyBmaWxsPSJibGFjayI+PHBhdGggZD0iTTUwMCwyMi4xYy0yNzAuNiwwLTQ5MCwyMTkuNC00OTAsNDkwYzAsMjE2LjUsMTQwLjQsNDAwLjIsMzM1LjEsNDY0LjljMjQuNSw0LjUsMzMuNS0xMC42LDMzLjUtMjMuNmMwLTExLjctMC41LTUwLjMtMC43LTkxLjJjLTEzNi4zLDI5LjYtMTY1LjEtNTcuOC0xNjUuMS01Ny44Yy0yMi4zLTU2LjYtNTQuNC03MS43LTU0LjQtNzEuN2MtNDQuNS0zMC40LDMuNC0yOS44LDMuNC0yOS44YzQ5LjIsMy41LDc1LjEsNTAuNSw3NS4xLDUwLjVjNDMuNyw3NC45LDExNC42LDUzLjMsMTQyLjYsNDAuN2M0LjQtMzEuNywxNy4xLTUzLjMsMzEuMS02NS41Yy0xMDguOC0xMi40LTIyMy4zLTU0LjQtMjIzLjMtMjQyLjJjMC01My41LDE5LjEtOTcuMiw1MC41LTEzMS41Yy01LjEtMTIuMy0yMS45LTYyLjIsNC43LTEyOS43YzAsMCw0MS4yLTEzLjIsMTM0LjgsNTAuMmMzOS4xLTEwLjksODEtMTYuMywxMjIuNy0xNi41YzQxLjYsMC4yLDgzLjYsNS42LDEyMi43LDE2LjVjOTMuNS02My40LDEzNC42LTUwLjIsMTM0LjYtNTAuMmMyNi43LDY3LjUsOS45LDExNy4zLDQuOCwxMjkuN2MzMS40LDM0LjMsNTAuNCw3OCw1MC40LDEzMS41YzAsMTg4LjItMTE0LjYsMjI5LjYtMjIzLjcsMjQxLjhjMTcuNiwxNS4yLDMzLjIsNDUsMzMuMiw5MC43YzAsNjUuNi0wLjYsMTE4LjMtMC42LDEzNC41YzAsMTMsOC44LDI4LjMsMzMuNywyMy41Qzg0OS44LDkxMi4xLDk5MCw3MjguNSw5OTAsNTEyLjFDOTkwLDI0MS41LDc3MC42LDIyLjEsNTAwLDIyLjFMNTAwLDIyLjF6Ii8+PC9nPgo8L3N2Zz4="
-                    alt="Github Masato Sotoma"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/masato-sotoma-5020b87a/"
-                  target="_blank"
-                >
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className="flex mt-4 md:mt-0 space-x-5">
+            <a
+              href="https://github.com/masatosotoma"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIgogICAgICAgICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICAgIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8ZyBmaWxsPSJibGFjayI+PHBhdGggZD0iTTUwMCwyMi4xYy0yNzAuNiwwLTQ5MCwyMTkuNC00OTAsNDkwYzAsMjE2LjUsMTQwLjQsNDAwLjIsMzM1LjEsNDY0LjljMjQuNSw0LjUsMzMuNS0xMC42LDMzLjUtMjMuNmMwLTExLjctMC41LTUwLjMtMC43LTkxLjJjLTEzNi4zLDI5LjYtMTY1LjEtNTcuOC0xNjUuMS01Ny44Yy0yMi4zLTU2LjYtNTQuNC03MS43LTU0LjQtNzEuN2MtNDQuNS0zMC40LDMuNC0yOS44LDMuNC0yOS44YzQ5LjIsMy41LDc1LjEsNTAuNSw3NS4xLDUwLjVjNDMuNyw3NC45LDExNC42LDUzLjMsMTQyLjYsNDAuN2M0LjQtMzEuNywxNy4xLTUzLjMsMzEuMS02NS41Yy0xMDguOC0xMi40LTIyMy4zLTU0LjQtMjIzLjMtMjQyLjJjMC01My41LDE5LjEtOTcuMiw1MC41LTEzMS41Yy01LjEtMTIuMy0yMS45LTYyLjIsNC43LTEyOS43YzAsMCw0MS4yLTEzLjIsMTM0LjgsNTAuMmMzOS4xLTEwLjksODEtMTYuMywxMjIuNy0xNi41YzQxLjYsMC4yLDgzLjYsNS42LDEyMi43LDE2LjVjOTMuNS02My40LDEzNC42LTUwLjIsMTM0LjYtNTAuMmMyNi43LDY3LjUsOS45LDExNy4zLDQuOCwxMjkuN2MzMS40LDM0LjMsNTAuNCw3OCw1MC40LDEzMS41YzAsMTg4LjItMTE0LjYsMjI5LjYtMjIzLjcsMjQxLjhjMTcuNiwxNS4yLDMzLjIsNDUsMzMuMiw5MC43YzAsNjUuNi0wLjYsMTE4LjMtMC42LDEzNC41YzAsMTMsOC44LDI4LjMsMzMuNywyMy41Qzg0OS44LDkxMi4xLDk5MCw3MjguNSw5OTAsNTEyLjFDOTkwLDI0MS41LDc3MC42LDIyLjEsNTAwLDIyLjFMNTAwLDIyLjF6Ii8+PC9nPgo8L3N2Zz4="
+                alt="Github Masato Sotoma"
+                className="w-6 h-6"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/masato-sotoma-5020b87a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400"
+            >
+              <img
+                src="./images/linkedin-icon.png"
+                alt="LinkedIn Masato Sotoma"
+                className="w-6 h-6"
+              />
+            </a>
+          </div>
         </div>
       </header>
 

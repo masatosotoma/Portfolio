@@ -122,12 +122,23 @@ function App() {
                   </svg>
                 </div>
                 <h2 className="text-gray-900 text-lg font-medium">
-                  Web Developer
+                  Junior Frontend Web Developer
                 </h2>
               </div>
               <div>
-                <p>I am studying codes</p>
-                <a href="#" className="flex mt-3 text-green-500 items-center">
+                <p>
+                  I have been self-studying programming with a focus on
+                  JavaScript, React, and CSS, continuously expanding my skills
+                  and building a strong foundation in web development. I
+                  recently earned a certificate from the Meta Frontend Developer
+                  course, where I gained valuable knowledge in modern frontend
+                  technologies, and I’m eager to showcase my skills in
+                  real-world projects.
+                </p>
+                <a
+                  href="https://coursera.org/share/c44cef329628842709a95e0d2a570960"
+                  className="flex mt-3 text-green-500 items-center"
+                >
                   See more
                   <svg
                     fill="none"

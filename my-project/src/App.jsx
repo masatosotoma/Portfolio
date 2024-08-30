@@ -95,12 +95,14 @@ function App() {
             </h1>
             <p className="pb-10">Masato Sotoma</p>
             <p>
-              Hi, I'm Masato! I'm currently diving into the world of web
-              development, with a focus on JavaScript and React. I'm also
-              getting my hands dirty with a bit of CSS to enhance my styling
-              skills. I'm passionate about building interactive and responsive
-              web applications and am excited to keep learning and growing in
-              this field. Looking for an opportunity to be a web Developer
+              I was born and raised in Okinawa, Japan, and moved to Toronto,
+              Canada in 2014, where I became a permanent resident. I have a
+              passion for traveling and currently work as a travel agent
+              supervisor. For the past three years, I've been self-studying
+              programming, focusing on front-end technologies like JavaScript
+              and React. Now, I'm excited to take on the challenge of
+              transitioning into a career as a front-end developer or software
+              engineer.
             </p>
           </div>
         </div>

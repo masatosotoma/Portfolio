@@ -174,11 +174,19 @@ function App() {
                   </svg>
                 </div>
                 <h2 className="text-gray-900 text-lg font-medium">
-                  Web Developer
+                  Senior Travel Agent/Operational Manager
                 </h2>
               </div>
               <div>
-                <p>I am studying codes</p>
+                <p>
+                  I bring over 10 years of experience as a travel agent and
+                  operational manager, where I’ve honed my customer service
+                  skills and expertise in using Global Distribution Systems
+                  (GDS) for booking flights, hotels, and rental cars. I’ve also
+                  had the opportunity to manage and train a team of more than 10
+                  staff members, ensuring efficient operations and excellent
+                  service delivery.
+                </p>
                 <a href="#" className="flex mt-3 text-green-500 items-center">
                   See more
                   <svg

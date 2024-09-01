@@ -221,11 +221,15 @@ function App() {
                   </svg>
                 </div>
                 <h2 className="text-gray-900 text-lg font-medium">
-                  Web Developer
+                  Japanese Tutor
                 </h2>
               </div>
               <div>
-                <p>I am studying codes</p>
+                <p>
+                  I have been teaching Japanese for over 4 years, working with
+                  more than 10 students to help them improve their language
+                  skills and understanding of Japanese culture.
+                </p>
                 <a href="#" className="flex mt-3 text-green-500 items-center">
                   See more
                   <svg

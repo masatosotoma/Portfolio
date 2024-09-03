@@ -254,7 +254,13 @@ function App() {
       <section id="skills" className="text-gray-700 border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div>
-            <img src="./images/pc.jpg" alt="" className="rounded"></img>
+            <img
+              src="./images/programming.jpg"
+              alt=""
+              className="rounded"
+              width={500}
+              height={500}
+            ></img>
           </div>
           <div className="lg:pl-12 lg:py-6">
             <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 mb-10">

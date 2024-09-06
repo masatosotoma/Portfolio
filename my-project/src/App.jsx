@@ -252,7 +252,7 @@ function App() {
 
       {/*More sections*/}
       <section id="skills" className="text-gray-700 border-t border-gray-200">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <div className="container px-60 py-24 mx-auto flex flex-wrap" >
           <div>
             <img
               src="./images/programming.jpg"
@@ -261,6 +261,49 @@ function App() {
               width={500}
               height={500}
             ></img>
+          </div>
+          <div className="lg:pl-12 lg:py-6">
+            <h1 className="text-2xl sm:text-4xl font-medium text-gray-900 mb-10">
+              My skills
+            </h1>
+            <div className="w-full">
+              <h2>HTML</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "85%" }}
+                >
+                  85%
+                </div>
+              </div>
+              <h2>CSS</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "85%" }}
+                >
+                  70%
+                </div>
+              </div>
+              <h2>JavaScript</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "85%" }}
+                >
+                  80%
+                </div>
+              </div>
+              <h2>React</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "85%" }}
+                >
+                  70%
+                </div>
+              </div>
+            </div>
           </div>
           <div className="lg:pl-12 lg:py-6">
             <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 mb-10">
